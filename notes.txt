@@ -20,3 +20,8 @@ If you forget your commit message or otherwise end up in VIM:
 git log		=> shows a list of commits
 git diff	=> shows changes since last commit
 git status=> tells me what's what
+
+git branch							=> tells me what branches exist and which one I'm on
+git branch [BRANCH_NAME]=> creates a new branch BRANCH_NAME
+git checkout [BRANCH_NAME]=> switches me to BRANCH_NAME
+git checkout -b [BRANCH_NAME] => creates [BRANCH_NAME] and switches me to it
