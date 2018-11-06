@@ -23,5 +23,34 @@ git status=> tells me what's what
 
 git branch							=> tells me what branches exist and which one I'm on
 git branch [BRANCH_NAME]=> creates a new branch BRANCH_NAME
+git branch -d [BRANCH_NAME] => deletes BRANCH_NAME
 git checkout [BRANCH_NAME]=> switches me to BRANCH_NAME
 git checkout -b [BRANCH_NAME] => creates [BRANCH_NAME] and switches me to it
+git merge [BRANCHNAME] => merges all changes made in [BRANCHNAME] to current branch
+
+git remote add origin [URL_OF_REMOTE_REPO] => define a remote (usually online/cloud) location to store your code, e.g. GitHub, and call that remote 'origin'
+
+git push origin [BRANCH_NAME] => upload all commits from your current branch to the relevant branch on the origin location
+
+git clone [URL_OF_REMOTE_REPO] => download a remote repo for the first time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
