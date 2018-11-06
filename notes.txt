@@ -15,3 +15,8 @@ If you forget your commit message or otherwise end up in VIM:
 2) Hit "esc" to get out of insert mode
 3) Type :wq to get out of VIM
 *~*~*~*~*
+
+
+git log		=> shows a list of commits
+git diff	=> shows changes since last commit
+git status=> tells me what's what
